@@ -13,6 +13,9 @@ const questionningHandler = Alexa.CreateStateHandler(stateContext.states.QUESTIO
   'AnswerIntent': function() {
     interaction.treatAnswer(this);
   },
+  'StartIntent': function() {
+    interaction.startContest(this);
+  },
 
   'AMAZON.HelpIntent': function() {
     interaction.helpQuestionning(this);

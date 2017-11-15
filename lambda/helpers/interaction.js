@@ -30,7 +30,8 @@ module.exports = (function() {
         return session.emitWithState('LaunchRequest')
       } else {
         // Welcome User for the First Time
-        return session.emit(':ask', 'Welcome to spelling contest! Say ... "my name is" ... to bind your experience to you', 'Say "my name is" to bind your experience to you');
+        return session.emit(':ask', 'Welcome to the oblic strategy! you can ask me for a tip or advise by saying <break time="0.5s"/>tell me a strategy',
+        'you can ask me for a tip or advise by saying <break time="0.5s"/>tell me a strategy');
       }
     },
 

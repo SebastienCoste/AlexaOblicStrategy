@@ -14,8 +14,10 @@
             "strategy"
           ],
           "name": "Oblic strategy",
-          "description": "Write a description"
-          }
+          "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.d5e00b10-d4d6-4411-ad33-f857b52d6dbe/images/eyJkIjoidVFrY3hFNWhyeVRhNHI2MDgvZkZVVURuLzgzTmpib2RGa291SFlBU240N0hTZHM3TkdHRVROWGRXMjBSRHNWaXNBU1JPNVQyaVZTR0kxVFNkL1pMb0tGdHQ0UGtHYmtRTnVockE2SFZsSkcrcnoxOW5mZ2xKTkFiVm5JYVM1VkkiLCJpdiI6IlNwNmdwNmxNeWluOVBFVDMrclU0QXc9PSIsInYiOjF9",
+          "description": "Write a description",
+          "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.d5e00b10-d4d6-4411-ad33-f857b52d6dbe/images/eyJkIjoiL2I4R0VIQkRNSTdDQ0Rrc0xVbHhRRmk2bW5aYmo5bU1reElITE0xZ2ZtaksvaW5yQUduUHdXOUVqODcrU1c3NjQxbW81NmNESVNJamFjMlhoSGZZSGlTd1o3amV2NThMeUQyZWU1dGJldWhtK245NG5MeEVsM0dNMTVmLzQ2ZDllZlhYbnpyZkVyZ016aVpnM0pBK2NnPT0iLCJpdiI6Ik90WUxObnlDY2JJQ3VNTWIrRTBaMkE9PSIsInYiOjF9"
+        }
       },
       "isAvailableWorldwide": true,
       "testingInstructions": "testing description",
@@ -25,7 +27,7 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "sourceDir": "lambda\\custom"
+          "uri": "arn:aws:lambda:eu-west-1:398750413546:function:AlexaOblic"
         }
       }
     },

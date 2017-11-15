@@ -1,12 +1,12 @@
 {
   "author": "scoste",
-  "name": "spelling-contest-skill",
+  "name": "oblic-strategy-skill",
   "version": "1.0.0",
-  "description": "Spelling contest: test your englishl",
+  "description": "Stuck ? Try the oblic strategy",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "alexa-sdk": "^1.0.19"
+    "alexa-sdk": "^1.0.20"
   }
 }
