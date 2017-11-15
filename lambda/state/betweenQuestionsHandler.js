@@ -16,7 +16,10 @@ const betweenQuestionsHandler = Alexa.CreateStateHandler(stateContext.states.BET
   'StartIntent': function() {
     interaction.startContest(this);
   },
-
+  'RepeatIntent': function() {
+    interaction.repeatQuestion(this);
+  },
+  
   'AMAZON.HelpIntent': function() {
     interaction.helpBetweenQuestions(this);
   },
