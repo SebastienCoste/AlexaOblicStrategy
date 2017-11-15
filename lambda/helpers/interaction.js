@@ -119,7 +119,6 @@ module.exports = (function() {
 function startWordContest(session){
   let word = getAWord();
   session.attributes['word'] = word;
-  let number = word.trim().length;
   if (word.status.end){
     session.handler.state = stateContext.states.BETWEEN_QUESTIONS;
   } else {

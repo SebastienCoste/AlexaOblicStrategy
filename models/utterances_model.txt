@@ -1,8 +1,8 @@
-"StartIntent (please/ ) (to/ ) (go/start/let's go/begin/commence/launch/raise/play) (the/a/a new/another/ ) ( /strategy/advise/tip/it/)",
-"StartIntent (please/ ) for (going on/starting/beginning/commencing/launching/raising) (the/a/a new/another/ ) ( /strategy/advise/tip/it/)",
-"StartIntent (to/ ) (go/start/let's go/begin/commence/launch/raise/play) (the/a/a new/another/ ) ( /strategy/advise/tip/it/)",
-"StartIntent for (going on/starting/beginning/commencing/launching/raising) (the/a/a new/another/ ) ( /strategy/advise/tip/it/)",
-"StartIntent (another/next/again/another one/last/a last)",
+"StartIntent (to/ ) (go/start/let's go for/begin/commence/launch/raise/play/give) (the/a new/another/ ) (strategy/advise/tip)",
+"StartIntent (to/ ) (go/start/let's go for/begin/commence/launch/raise/play/give) (the/a new/another) next (strategy/advise/tip)",
+"StartIntent (to/ ) (go/start/let's go for/begin/commence/launch/raise/play/give) an advise",
+"StartIntent (to/ ) (go/start/let's go for/begin/commence/launch/raise/play/give) (a new/another)",
+"StartIntent (another/the next one/again/another one/last/a last)",
 
 "NameCapture (please/ ) (no/to/ ) (call me/you can call me/my name is/I am/I'm/ ) ({USFirstName}/{UKFirstName}) (please/ )",
 
